@@ -1,0 +1,6 @@
+<div class="content-wrapper">
+
+  <app-counter-component [counter]="componentCounterValue" (counterChange)="parentChangeCounter($event)">
+  </app-counter-component>
+  <p>{{componentCounterValue}}</p>
+</div>
